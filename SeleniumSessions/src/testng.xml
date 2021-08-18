@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+   <test name="Test Automation" >
+       <classes> 
+          <class name="com.test.ExceptionTimeoutTest" />
+           <class name="com.test.ExpectedExceptionTest" />
+            <class name="com.test.GoogleTest" />
+             <class name="com.test.InvocationCountTest" />
+              <class name="com.test.TestNGFeatures" />
+       </classes>
+   </test>
+ </suite>
